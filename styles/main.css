@@ -1,0 +1,80 @@
+
+.log-image {
+  padding-left: 10px;
+  width: auto;
+  height: 55px;
+  display: inline-block;
+}
+
+.log-name {
+  padding: 3px 0px 0px 7px ;
+  width: auto;
+  height: 50px;
+  display: inline-block;
+  font-family: 'Roboto', sans-serif;
+  font-size: 30px;
+}
+
+.log-slogan {
+  font-family: 'Asap', sans-serif;
+  font-size: 12px;
+}
+
+.menu-button {
+  top: 15px;
+  right: 10px;
+  width:100px;
+	height: 28px;
+	background: #353535;
+  color:#fff;
+  font-size: 13px;
+  font-family: 'Roboto', sans-serif;
+  position: fixed;
+  float: right;
+  cursor: pointer;
+}
+
+.main-image-line{
+  width: 100%;
+	position: relative;
+  padding-top: 10px;
+}
+
+.main-image {
+  vertical-align: middle;
+}
+
+.main-text {
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  font-size: 50px;
+  padding: 5px 10px;
+	text-align: center;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate( -50%, -50% );
+}
+
+.main-font {
+  font-family: 'Asap', sans-serif;
+  color: black;
+}
+
+input[id="yes"]  {
+  top: -10px;
+  position: relative;
+	width: 12px;
+	height: 12px;
+	cursor: pointer;
+}
+
+input[id="no"]  {
+  top: -10px;
+  position: relative;
+	width: 12px;
+	height: 12px;
+	cursor: pointer;
+  font-size: 10px;
+}
+
