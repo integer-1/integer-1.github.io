@@ -1,4 +1,10 @@
 
+@media(max-width: 550px) {
+  .no-button {
+   display: none;
+  }
+}
+
 .log-image {
   padding-left: 10px;
   width: auto;
