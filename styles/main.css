@@ -1,10 +1,4 @@
 
-@media(max-width: 550px) {
-  .no-button {
-   display: none;
-  }
-}
-
 .log-image {
   padding-left: 10px;
   width: auto;
@@ -38,6 +32,12 @@
   position: fixed;
   float: right;
   cursor: pointer;
+}
+
+@media(max-width: 200px) {
+  .no-button {
+   display: none;
+  }
 }
 
 .main-image-line{
