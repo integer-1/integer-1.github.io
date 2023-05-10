@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--css file-->
+  <link href="../styles/html-css.css" rel="stylesheet" type="text/css">
+  <!--font link-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Asap&display=swap" rel="stylesheet">
+  
+  <title>CSS Concepts</title>
+
+</head>
+
+<body>
+  <h2>What are the differences between relative, absolute, and fixed positioning?</h2>
+  
+  <h4>1. Static</h4>
+    <div>
+      <p>The default!!</p>
+      <img class="basicfont" src="../blog/html-css/Static-image.jpg" width="100%" height="auto" alt="Static image"><br>
+      <span>No effect</span><br>
+
+    </div>
+    
+    <h4>2. Relative</h4>
+    <div>
+      <p>An element whose computed position value is relative</p>
+      <img class="basicfont" src="../blog/html-css/Relative-image.jpg" width="100%" height="auto" alt="Relative image"><br>
+      <span>The element is positioned according to the normal flow of the 
+        document, and then offset relative to itself based on the values of 
+        top, right, bottom, and left. </span>
+    </div>
+    
+    <h4>3. Absolute</h4>
+    <div>
+      <p>An element whose computed position value is absolute or fixed</p>
+      <img class="basicfont" src="../blog/html-css/Absolute-image.jpg" width="100%" height="auto" alt="Absolute image"><br>
+      <span>The element is removed from the normal document flow, and no space 
+        is created for the element in the page layout. It is positioned relative
+         to its closest positioned ancestor, if any; otherwise, it is placed 
+         relative to the initial containing block. Its final position is 
+         determined by the values of top, right, bottom, and left.</span>
+    </div>
+    
+    <h4>4. Fixed</h4>
+    <div>
+      <p>The element is placed in the same position on every page</p>
+      <img class="basicfont" src="../blog/html-css/Fixed-image.jpg" width="100%" height="auto" alt="Fixed image"><br>
+      <span>The element is removed from the normal document flow, and no space 
+        is created for the element in the page layout. It is positioned relative
+         to the initial containing block established by the viewport, except 
+         when one of its ancestors has a transform, perspective, or filter 
+         property set to something other than none (see the CSS Transforms Spec)
+         , or the will-change property is set to transform, in which case that 
+         ancestor behaves as the containing block. (Note that there are browser 
+         inconsistencies with perspective and filter contributing to containing 
+         block formation.) Its final position is determined by the values of top
+         , right, bottom, and left.</span>
+    </div>
+
+
+</body>
+</html>
+

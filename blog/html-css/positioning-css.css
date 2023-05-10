@@ -1,0 +1,39 @@
+
+
+.box-style {
+  display: flex; 
+  justify-content: flex-start; 
+  align-items: stretch;
+  margin-top: 20px;
+  font-family: 'Asap', sans-serif;
+  font-size: 17px;
+  color: white;
+}
+
+
+
+#box1 {
+  width: 150px;
+  height: 150px;
+  background-color: #f8c373;
+  margin-right: 10px ;
+}
+
+#box2 {
+  position: fixed;
+  top : 10%;
+  left : 10%;
+  width: 150px;
+  height: 150px;
+  background-color: #8da8df;
+  margin-right: 10px;
+}
+
+
+
+#box3 {
+  width: 150px;
+  height: 150px;
+  background-color: #f8c373;
+  margin-right: 10px 
+}
