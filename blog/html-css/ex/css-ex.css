@@ -36,3 +36,17 @@ span {
   font-size: 11px;
   color: black;
 }
+
+.menu-button {
+  top: 15px;
+  right: 10px;
+  width:100px;
+	height: 28px;
+	background: #353535;
+  color:#fff;
+  font-size: 13px;
+  font-family: 'Roboto', sans-serif;
+  position: fixed;
+  float: right;
+  cursor: pointer;
+}
