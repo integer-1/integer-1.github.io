@@ -59,6 +59,7 @@
   justify-content: flex-start; 
   align-items: stretch;
   margin-top: 20px;
+  margin-bottom: 50px;
 }
 
 #box {
@@ -79,6 +80,13 @@
   font-size: 15px;
 }
 
+li {
+  margin-left: -20px;
+  padding-bottom: 20px;
+  color: black;
+  font-size: 13px;
+
+}
 
 input[id="yes"]  {
   top: -10px;
