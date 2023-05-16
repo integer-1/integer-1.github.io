@@ -1,24 +1,36 @@
 /* who am I */
 .first-div-style {
-  background-color: rgba(255, 166, 0, 0.377); 
   padding: 5px;
+  margin-top: -30px;
 }
 
 .div-style {
-  background-color: rgba(255, 166, 0, 0.377); 
   padding: 5px; 
-  margin-top: 10px;
+  margin-top: -10px;
+
 }
 
 h2 {
   font-family: 'Roboto', sans-serif;
   padding-left: 10px;
+  
 }
 
 h3 {
   font-family: 'Roboto', sans-serif;
+  background-color: #f8c373; 
+  color: white;
+  padding: 10px 10px 10px 10px;
+
 }
 
 p {
   font-family: 'Asap', sans-serif;
+  background-color: rgba(255, 166, 0, 0.377); 
+  margin-top: -12px;
+  padding: 10px 10px 10px 10px;
+}
+
+a {
+  text-decoration:none;
 }
