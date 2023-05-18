@@ -11,52 +11,51 @@
       <meta http-equiv="X-UA-Compatible" content="ie=edge">
       <!--css file-->
       <link href="styles/main.css" rel="stylesheet" type="text/css">
+      <!-- <link rel="stylesheet" media="screen and (min-width: 992px)" type="text/css"> -->
       <!--font link-->
       <link rel="preconnect" href="https://fonts.googleapis.com">
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
       <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
       <link href="https://fonts.googleapis.com/css2?family=Asap&display=swap" rel="stylesheet">
-
     </head>
 
     <body>
     <!--First log-->
     <div style="display: inline-flex;">
-      <div>
+      <div >
         <a href="#home">
-          <img class= "log-image"src="styles/one-log.png" width= "60px" height="60px" alt="number1">
+          <img class= "log-image" src="../blog/image/one-log.png" width= "60px" height="60px" alt="number1">
         </a>
       </div>
       <div class="log-name">integer::1 <br> <span class="log-slogan">{my first website}</span></div>
-      <div>
+      <!-- <div>
         <button class="menu-button no-button" type="menu" onclick="location.href='#home'">Menu</button>
-      </div>
+      </div> -->
     </div>
 
     <!--Main image-->
     <div class="main-image-line">
       <div class="main-image">
-        <img src="styles/main-page-image.jpg" width="100%" height="auto" alt="image">
+        <p class="main-text">Kia ora Taiao!</p>
+        <img src="../blog/image/main-page-image.jpg" width="100%" height="auto" alt="image">
       </div>
-      <div class="main-text">
-        <p>Kia ora Taiao!</p>
-      </div>
+      <!-- <div class="main-text">
+        <p >Kia ora Taiao!</p>
+      </div> -->
     </div>
 
     <!--Unordered List-->
     <div class="box-style">
       <div id="box">Who am I<br>
         <ul class="ul">
-          <li><a href='blog/identity-values.html'>Identity
-
-          </a></li> 
+          <li><a href='blog/identity-values.html'>Identity</a></li> 
           <li><a href="blog/learning-plan.html">Learning Plan</a></li>
-          <li></li>
+          <li><a href="blog/emotional-intelligence.html">Emotional & <br>Intelligence</a></li>
       </div>
       <div id="box">Task <br>
         <ul class="ul">
           <li><a href="blog/te-houtaewa-template.html">Te Houtaewa</a></li>
-          <li><a href="blog/html-css/html-css.html">CSS concept:<br> Positioning</a></li>
+          <li><a href="blog/html-css.html">CSS concept:<br> Positioning</a></li>
           <li></li>
       </div>
       <div id="box">...<br>
@@ -68,31 +67,28 @@
     </div>
 
     <!--lable-->
-    <div class="main-font">
-        <p>What do you want to know my skill?</p> 
-          <label for="HTML"><input id="html" type="checkbox" name="skill"> HTML </label>
-          <label for="CSS"><input id="css" type="checkbox" name="skill"> CSS </label>
-          <label for="Java Script"><input id="java script" type="checkbox" name="skill"> Java Script</label><br>
+    <div>
+        <p class="etc-font">What do you want to know my skill?</p> 
+          <label class="etc-font" for="HTML"><input id="html" type="checkbox" name="skill"> HTML </label>
+          <label class="etc-font" for="CSS"><input id="css" type="checkbox" name="skill"> CSS </label>
+          <label class="etc-font" for="Java Script"><input id="java script" type="checkbox" name="skill"> Java Script</label><br>
     </div>
 
-    <div class="main-font">
-      <P style="font-size: 12px;"> &#11015; Subscribe to our mailing list for the latest news and special skills.</P>
-      <div class="font-size: 1px;">  
-        <label for="yes"><input id="yes" type="radio" name="yes-no"> Yes</label>
-        <label for="no"><input id="no" type="radio" name="yes-no"> No</label>
-      </div>
+    <div style="padding-top: 20px;">
+      <P class="etc-font"> &#11015; Subscribe to our mailing list for the latest news and special skills.</P>
+        <label class="etc-font" for="yes"><input id="yes" type="radio" name="yes-no"> Yes</label>
+        <label class="etc-font" for="no"><input id="no" type="radio" name="yes-no"> No</label>
     </div>
 
     <!--input--> 
     <div>
-      <input type="email" placeholder="Your Email"><br>
+      <input class="etc-font" type="email" placeholder="Your Email"><br>
     </div>
     
     <!--button-->
     <div>
-      <button type="submit">Subscribe</button>
+      <button class="etc-font" type="submit">Subscribe</button>
     </div>    
      
-
   </body>
 </html>

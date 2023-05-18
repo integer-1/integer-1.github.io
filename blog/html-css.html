@@ -5,7 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!--css file-->
-  <link href="ex/css-ex.css" rel="stylesheet" type="text/css">
+  <link href="../styles/main.css" rel="stylesheet" type="text/css">
   <!--font link-->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -16,10 +16,10 @@
 
 </head>
 
-<body>
+<body class="html-css-body">
   <div>
     <h2> "What are the differences between relative, absolute, and fixed positioning?"</h2>
-    <button class="menu-button" type="example" onclick="location.href='https://integer-1.github.io/'">Go back home</button>
+    <button class="home-button" type="example" onclick="location.href='https://integer-1.github.io/'">Go back home</button>
 
   </div>
   <div>
@@ -28,7 +28,7 @@
     <h4>1. Static</h4>
     <div>
       <p>The default!!</p>
-      <img class="basicfont" src="ex/Static-image.jpg" width="100%" height="auto" alt="Static image"><br>
+      <img class="basicfont" src="../blog/image/Static-image.jpg" width="100%" height="auto" alt="Static image"><br>
       <span>No effect</span><br>
 
     </div>
@@ -36,7 +36,7 @@
     <h4>2. Relative</h4>
     <div>
       <p>An element whose computed position value is relative</p>
-      <img class="basicfont" src="ex/Relative-image.jpg" width="100%" height="auto" alt="Relative image"><br>
+      <img class="basicfont" src="../blog/image/Relative-image.jpg" width="100%" height="auto" alt="Relative image"><br>
       <span>The element is positioned according to the normal flow of the 
         document, and then offset relative to itself based on the values of 
         top, right, bottom, and left. </span>
@@ -45,7 +45,7 @@
     <h4>3. Absolute</h4>
     <div>
       <p>An element whose computed position value is absolute or fixed</p>
-      <img class="basicfont" src="ex/Absolute-image.jpg" width="100%" height="auto" alt="Absolute image"><br>
+      <img class="basicfont" src="../blog/image/Absolute-image.jpg" width="100%" height="auto" alt="Absolute image"><br>
       <span>The element is removed from the normal document flow, and no space 
         is created for the element in the page layout. It is positioned relative
          to its closest positioned ancestor, if any; otherwise, it is placed 
@@ -56,7 +56,7 @@
     <h4>4. Fixed</h4>
     <div>
       <p>The element is placed in the same position on every page</p>
-      <img class="basicfont" src="ex/Fixed-image.jpg" width="100%" height="auto" alt="Fixed image"><br>
+      <img class="basicfont" src="../blog/image/Fixed-image.jpg" width="100%" height="auto" alt="Fixed image"><br>
       <span>The element is removed from the normal document flow, and no space 
         is created for the element in the page layout. It is positioned relative
          to the initial containing block established by the viewport, except 

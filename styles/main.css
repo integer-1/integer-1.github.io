@@ -1,4 +1,4 @@
-
+/* index.html */
 .log-image {
   padding-left: 10px;
   width: auto;
@@ -32,14 +32,6 @@
   position: fixed;
   float: right;
   cursor: pointer;
-}
-
-
-
-@media(max-width: 200px) {
-  .no-button {
-   display: none;
-  }
 }
 
 .main-image-line{
@@ -109,6 +101,12 @@ a {
   text-decoration:none;
 }
 
+.etc-font {
+  font-family: 'Asap', sans-serif;
+  font-size: 12px;
+  color: black;
+}
+
 input[id="yes"]  {
   top: -10px;
   position: relative;
@@ -126,5 +124,103 @@ input[id="no"]  {
   font-size: 10px;
 }
 
+/* html-css.html */
+
+.html-css-body {
+  background-color: white;
+}
+
+h2 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  color: black;
+}
+
+h4 {
+  font-family: 'Asap', sans-serif;
+  font-size: 17px;
+  color: white;
+  background-color: #f8c373; 
+}
+
+p {
+  font-family: 'Asap', sans-serif;
+  font-size: 15px;
+  color: #f8c373;
+  margin-top: -10px;
+}
+
+span {
+  font-family: 'Asap', sans-serif;
+  font-size: 11px;
+  color: black;
+  /* margin-top: -30px;
+  margin-bottom: -10px; */
+
+}
+
+.basicfont {
+  font-family: 'Asap', sans-serif;
+  font-size: 11px;
+  color: black;
+}
+
+.home-button {
+  top: 15px;
+  right: 10px;
+  width:100px;
+	height: 28px;
+	background: #353535;
+  color:#fff;
+  font-size: 13px;
+  font-family: 'Roboto', sans-serif;
+  float: right;
+  cursor: pointer;
+}
 
 
+/* who am I */
+.first-div-style {
+  padding: 5px;
+  margin-top: -30px;
+}
+
+.div-style {
+  padding: 5px; 
+  margin-top: -10px;
+
+}
+
+.who-h2 {
+  font-family: 'Roboto', sans-serif;
+  padding-left: 10px;
+}
+
+.who-h3 {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f8c373; 
+  color: rgb(255, 255, 255);
+  padding: 10px 10px 10px 10px;
+
+}
+
+.who-p {
+  font-family: 'Asap', sans-serif;
+  color: rgba(13, 13, 13, 0.803);
+  background-color: rgba(255, 166, 0, 0.377); 
+  margin-top: -12px;
+  padding: 10px 10px 10px 10px;
+}
+
+.who-a {
+  text-decoration:none;
+}
+
+@media only screen and (min-width: 900px) {
+  body {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+}
