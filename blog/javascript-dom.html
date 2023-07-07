@@ -11,88 +11,91 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Asap&display=swap" rel="stylesheet">
+  <!-- for menu bar link -->
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>            
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 
   <title>JS Fundamentals</title>
 </head>
 
-<body class="html-css-body">
+<body>
+  <!--Menu Bar-->
+  <nav>
+    <input type="checkbox" id="check">
+    <label for="check">
+      <i class="fa fa-bars" id="btn"></i>
+      <i class="fa fa-times" id="cancel"></i>
+    </label>
+    <img src="../blog/image/one-log.png" alt="number1">
+    <ul>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Projects</a></li>
+      <li><a href="#">Study</a></li>
+      <li><a href="#">Blog</a></li>
+    </ul>
+  </nav>
+
+  <!-- main -->
+  <h2 class="who-h2">JavaScript Fundamentals</h2>
   
-  <!-- An analogy to describe JavaScript and its relationship to HTML and CSS.
-  Explain control flow and loops using an example process from everyday life, for example, 'waking up' or 'brushing your teeth' (but not those).
-  Describe what the DOM is and an example of how you might interact with it.
-  Explain the difference between accessing data from arrays and objects.
-  Explain what functions are and why they are helpful. -->
-
-
-  <div>
-    <h2>JavaScript Fundamentals</h2>
-    <button class="home-button" type="example" onclick="location.href='https://integer-1.github.io/'">Go back home</button>
+  <div class="who-first-div-style">
+    <h3 class="who-h3">An analogy to describe JavaScript and its relationship to HTML and CSS.</h3>
+    <img class="basicfont" src="../blog/image/jshtmlcss.png" width="100%" height="auto" alt="js, html and css"><br>
+    <p class="who-p"> HTML :  Bone /  CSS :  Appearance / JavaScript : Brain 
+      <br> <span class="tech-span">
+        - JavaScript is a programming language that adds interactivity and dynamic behavior to web pages. 
+        It works alongside HTML and CSS to create engaging and responsive websites. HTML structures the content, 
+        CSS styles the presentation, and JavaScript brings life to the web page by enabling interaction and dynamic modifications.
+      </span>
+    </p>
   </div>
-
-  <div style="margin-top: 50px;">
-    <h4>An analogy to describe JavaScript and its relationship to HTML and CSS.</h4>
-      <div>
-        <p>
-          HTML :  Bone /  CSS :  Appearance / JavaScript : Brain 
-        </p>
-        <img class="basicfont" src="../blog/image/jshtmlcss.png" width="100%" height="auto" alt="js, html and css"><br>
-        <span>
-          - JavaScript is a programming language that adds interactivity and dynamic behavior to web pages. 
-          It works alongside HTML and CSS to create engaging and responsive websites. HTML structures the content, 
-          CSS styles the presentation, and JavaScript brings life to the web page by enabling interaction and dynamic modifications.
-        </span>
-      </div>
     
-    <h4>Explain control flow and loops using an example process from everyday life</h4>
-      <div>
-        <p>
-          Control flow : 
-          <br>1. Apply toothpaste 2. Brush your teeth [Start a loop]~[End the loop] 3. Rinse your mouth 4. Clean the toothbrush
-        </p>
-        <p style = "font-size: 13px;">
-          [Start a loop] a. Select the next tooth b. Move the toothbrush in a circular motion to clean the tooth 
-          c. Repeat the previous two steps for each tooth in your mouth [End the loop] 
-        </p>
-        <img class="basicfont" src="../blog/image/loop.jpg" width="100%" height="auto" alt="Control flow and loops"><br>
-        <span>
-          - Control flow determines the sequence of actions you take and Loops allow you 
-          to repeat a certain set of actions multiple times until a specific condition is met.
-        </span>
-      </div>
+  <div class="who-div-style">
+    <h3 class="who-h3">Explain control flow and loops using an example process from everyday life</h3>
+    <img class="basicfont" src="../blog/image/loop.jpg" width="100%" height="auto" alt="Control flow and loops"><br>
+    <p class="who-p">
+      Control flow :
+      <br> 1. Apply toothpaste 2. Brush your teeth [loop] 3. Rinse your mouth 4. Clean the toothbrush
+      <br>[Start a loop] a. Select the next tooth b. Move the toothbrush in a circular motion to clean the tooth 
+      c. Repeat the previous two steps for each tooth in your mouth [End the loop]
+      <br><br><span class="tech-span"> - Control flow determines the sequence of actions you take and Loops allow you 
+        to repeat a certain set of actions multiple times until a specific condition is met.
+      </span>
+    </p>
+  </div>
     
-    <h4>Describe what the DOM is and an example of how you might interact with it </h4>
-    <div>
-      <p>Document Object Model</p>
-      <img class="basicfont" src="../blog/image/DOM.jpg" width="100%" height="auto" alt="DOM"><br>
-      <span> 
+  <div class="who-div-style">
+    <h3 class="who-h3">Describe what the DOM is and an example of how you might interact with it </h3>
+    <img class="basicfont" src="../blog/image/DOM.jpg" width="100%" height="auto" alt="DOM"><br>
+    <p class="who-p"> Document Object Model
+      <br><span class="tech-span"> 
         - DOM is the data representation of the objects that comprise the structure and content of a document on the web.
          And then DOM provides the means to interact with objects in an HTML document.
       </span>
-    </div>
+    </p>
+  </div>
     
-    <h4>Explain the difference between accessing data from arrays and objects</h4>
-    <div>
-      <p>
-        Objects represent a special data type that is mutable and can be used to store a collection of data (rather than just a single value). Arrays are a special type of variable that is also mutable and can also be used to store a list of values.
-      </p>
-      <img class="basicfont" src="../blog/image/arrayandobject.png" width="100%" height="auto" alt="Array and Object"><br>
-      <span>
-        - The main difference lies in the syntax and mechanism of accessing data. Arrays use numeric indices, 
-        while objects use string keys to access their respective elements or properties.
+  <div class="who-div-style">
+    <h3 class="who-h3">Explain the difference between accessing data from arrays and objects</h3>
+    <img class="basicfont" src="../blog/image/arrayandobject.png" width="100%" height="auto" alt="Array and Object"><br>
+    <p class="who-p"> Objects represent a special data type that is mutable and can be used to store a collection of data (rather than just a single value). Arrays are a special type of variable that is also mutable and can also be used to store a list of values.
+      <br><span class="tech-span">
+      - The main difference lies in the syntax and mechanism of accessing data. Arrays use numeric indices, 
+          while objects use string keys to access their respective elements or properties.
       </span>
-    </div>
+    </p>
+  </div>
   
-    <h4>Explain what functions are and why they are helpful </h4>
-    <div>
-      <p>Functions are one of the fundamental concepts in programming.
-      </p>
-      <span> 
+  <div class="who-div-style">
+    <h3 class="who-h3">Explain what functions are and why they are helpful </h3>
+    <p class="who-p">Functions are one of the fundamental concepts in programming.
+      <br><span class="tech-span"> 
         - Functions are the basic building block of JavaScript. Functions are a powerful feature in JavaScript 
         that enables you to write modular, reusable, and organized code. Functions allow us to encapsulate a block of code 
         and reuse it multiple times. Functions make JavaScript code more readable, organized, reusable, and maintainable.
       </span>
-    </div>
-
+    </p>
   </div>
 
 </body>

@@ -11,57 +11,74 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Asap&display=swap" rel="stylesheet">
-  
+  <!-- for menu bar link -->
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>            
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
   <title>CSS Concepts</title>
 
 </head>
+<body>
+  
+  <!--Menu Bar-->
+  <nav>
+    <input type="checkbox" id="check">
+    <label for="check">
+      <i class="fa fa-bars" id="btn"></i>
+      <i class="fa fa-times" id="cancel"></i>
+    </label>
+    <img src="../blog/image/one-log.png" alt="number1">
+    <ul>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Projects</a></li>
+      <li><a href="#">Study</a></li>
+      <li><a href="#">Blog</a></li>
+    </ul>
+  </nav>
 
-<body class="html-css-body">
-  <div>
-    <h2> "What are the differences between relative, absolute, and fixed positioning?"</h2>
-    <button class="home-button" type="example" onclick="location.href='https://integer-1.github.io/'">Go back home</button>
-
+  <!-- main -->
+  <h2 class="who-h2"> "What are the differences between relative, absolute, and fixed positioning?"</h2>
+ 
+  <div class="who-first-div-style">
+    <h3 class="who-h3">1. Static</h3>
+    <img class="tech-basicfont" src="../blog/image/Static-image.jpg" width="100%" height="auto" alt="Static image"><br>
+    <p class="who-p">The default!!
+      <br><span class="tech-span">No effect</span>
+    </p>
   </div>
-  <div>
-  <div>
-  <div style="margin-top: 50px;">
-    <h4>1. Static</h4>
-    <div>
-      <p>The default!!</p>
-      <img class="basicfont" src="../blog/image/Static-image.jpg" width="100%" height="auto" alt="Static image"><br>
-      <span>No effect</span><br>
-
-    </div>
     
-    <h4>2. Relative</h4>
-    <div>
-      <p>An element whose computed position value is relative</p>
-      <img class="basicfont" src="../blog/image/Relative-image.jpg" width="100%" height="auto" alt="Relative image"><br>
-      <span>
+  <div class="who-div-style">
+    <h3 class="who-h3">2. Relative</h3>
+    <img class="tech-basicfont" src="../blog/image/Relative-image.jpg" width="100%" height="auto" alt="Relative image"><br>
+    <p class="who-p">An element whose computed position value is relative
+      <br><span class="tech-span">
         The element is positioned according to the normal flow of the 
         document, and then offset relative to itself based on the values of 
         top, right, bottom, and left. 
       </span>
+    </p>
     </div>
     
-    <h4>3. Absolute</h4>
-    <div>
-      <p>An element whose computed position value is absolute or fixed</p>
-      <img class="basicfont" src="../blog/image/Absolute-image.jpg" width="100%" height="auto" alt="Absolute image"><br>
-        <span>
+    <div class="who-div-style">
+      <h3 class="who-h3">3. Absolute</h3>
+      <img class="tech-basicfont" src="../blog/image/Absolute-image.jpg" width="100%" height="auto" alt="Absolute image"><br>
+      <p class="who-p">An element whose computed position value is absolute or fixed
+        <br><span class="tech-span">
           The element is removed from the normal document flow, and no space 
           is created for the element in the page layout. It is positioned relative
           to its closest positioned ancestor, if any; otherwise, it is placed 
           relative to the initial containing block. Its final position is 
           determined by the values of top, right, bottom, and left.
         </span>
+      </p>
     </div>
     
-    <h4>4. Fixed</h4>
-    <div>
-      <p>The element is placed in the same position on every page</p>
-      <img class="basicfont" src="../blog/image/Fixed-image.jpg" width="100%" height="auto" alt="Fixed image"><br>
-        <span>
+    <div class="who-div-style">
+      <h3 class="who-h3">4. Fixed</h3>
+      <img class="tech-basicfont" src="../blog/image/Fixed-image.jpg" width="100%" height="auto" alt="Fixed image"><br>
+      <p class="who-p">The element is placed in the same position on every page
+        <br><span class="tech-span">
           The element is removed from the normal document flow, and no space 
           is created for the element in the page layout. It is positioned relative
           to the initial containing block established by the viewport, except 
@@ -73,10 +90,9 @@
           block formation.) Its final position is determined by the values of top
           , right, bottom, and left.
         </span>
+      </p>
     </div>
   
-  </div>
-
 </body>
 </html>
 

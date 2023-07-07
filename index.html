@@ -15,85 +15,77 @@
       <link rel="preconnect" href="https://fonts.googleapis.com">
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
       <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
-      <link href="https://fonts.googleapis.com/css2?family=Asap&display=swap" rel="stylesheet">
+      <!-- for menu bar link -->
+      <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>            
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
     </head>
 
-    <body>
-    <!--First log-->
-    <div style="display: inline-flex;">
-      <div >
-        <a href="#home">
-          <img class= "log-image" src="blog/image/one-log.png" width= "60px" height="60px" alt="number1">
-        </a>
-      </div>
-      <div class="log-name">integer::1 <br> <span class="log-slogan">{my first website}</span></div>
-      <!-- <div>
-        <button class="menu-button no-button" type="menu" onclick="location.href='#home'">Menu</button>
-      </div> -->
-    </div>
+    <!--Menu Bar-->
+      <nav>
+        <input type="checkbox" id="check">
+        <label for="check">
+          <i class="fa fa-bars" id="btn"></i>
+          <i class="fa fa-times" id="cancel"></i>
+        </label>
+        <img src="blog/image/one-log.png" alt="number1">
+        <ul>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Projects</a></li>
+          <li><a href="#">Study</a></li>
+          <li><a href="#">Blog</a></li>
+        </ul>
+      </nav>
 
-    <!--Main image-->
+    <!-- Main image-->
     <div class="main-image-line">
       <div class="main-image">
         <p class="main-text">Kia ora Taiao!</p>
         <img src="blog/image/main-page-image.jpg" width="100%" height="auto" alt="image">
       </div>
-      <!-- <div class="main-text">
+      <div class="main-text">
         <p >Kia ora Taiao!</p>
-      </div> -->
+      </div>
     </div>
 
-    <!--Unordered List-->
+    <!-- Unordered List -->
     <div class="box-style">
-      <div id="box">Who am I<br>
-        <ul class="ul">
-          <li><a href='blog/identity-values.html'>Identity</a></li> 
-          <li><a href="blog/learning-plan.html">Learning Plan</a></li>
-          <li><a href="blog/emotional-intelligence.html">Emotional & <br>Intelligence</a></li>
-          <li><a href="blog/neuroplasticity.html">Neuroplasticity</a></li>
-          <li><a href="blog/te-whare-tapa-wha.html">Te Whare Tapa Whā</a></li>
-          <li><a href="blog/foundations-reflection.html">Foundations Reflection</a></li>
-
-
+      
+      <div id="box">Core<br>
+        <ul class="box-ul">
+          <li class="box-li"><a class= "box-a" href='blog/identity-values.html'>Identity</a></li> 
+          <li class="box-li"><a class= "box-a" href="blog/learning-plan.html">Learning Plan</a></li>
+          <li class="box-li"><a class= "box-a" href="blog/emotional-intelligence.html">Emotional & <br>Intelligence</a></li>
+          <li class="box-li"><a class= "box-a" href="blog/neuroplasticity.html">Neuroplasticity</a></li>
+          <li class="box-li"><a class= "box-a" href="blog/te-whare-tapa-wha.html">Te Whare Tapa Whā</a></li>
+          <li class="box-li"><a class= "box-a" href="blog/foundations-reflection.html">Foundations Reflection</a></li>
       </div>
-      <div id="box">Task <br>
-        <ul class="ul">
-          <li><a href="blog/te-houtaewa-template.html">Te Houtaewa</a></li>
-          <li><a href="blog/html-css.html">CSS concept:<br> Positioning</a></li>
-          <li><a href="blog/javascript-dom.html">JS Fundamentals</a></li>
-          <li><a href="blog/problem-solving.html">Problem Solving</a></li>
+
+      <div id="box">Tech<br>
+        <ul class="box-ul">
+          <li class="box-li"><a class= "box-a" href="blog/te-houtaewa-template.html">Te Houtaewa</a></li>
+          <li class="box-li"><a class= "box-a" href="blog/html-css.html">CSS concept:<br> Positioning</a></li>
+          <li class="box-li"><a class= "box-a" href="blog/javascript-dom.html">JS Fundamentals</a></li>
+          <li class="box-li"><a class= "box-a" href="blog/problem-solving.html">Problem Solving</a></li>
       </div>
+
       <div class="box-last">...<br>
-        <ul class="ul">
-          <li></li>
-          <li></li>
-          <li></li>
+        <ul class="box-ul">
+          <li class="box-li"><a class= "box-a" ></a></li>
+          <li class="box-li"><a class= "box-a" ></a></li>
+          <li class="box-li"><a class= "box-a" ></a></li>
       </div>
+
     </div>
 
-    <!--lable-->
-    <div>
-        <p class="etc-font">What do you want to know my skill?</p> 
-          <label class="etc-font" for="HTML"><input id="html" type="checkbox" name="skill"> HTML </label>
-          <label class="etc-font" for="CSS"><input id="css" type="checkbox" name="skill"> CSS </label>
-          <label class="etc-font" for="Java Script"><input id="java script" type="checkbox" name="skill"> Java Script</label><br>
-    </div>
-
-    <div style="padding-top: 20px;">
-      <P class="etc-font"> &#11015; Subscribe to our mailing list for the latest news and special skills.</P>
-        <label class="etc-font" for="yes"><input id="yes" type="radio" name="yes-no"> Yes</label>
-        <label class="etc-font" for="no"><input id="no" type="radio" name="yes-no"> No</label>
-    </div>
-
-    <!--input--> 
-    <div>
-      <input class="etc-font" type="email" placeholder="Your Email"><br>
+    <div class="footer">
+      <p class="footer-p">©2023 integer::1
+        <i id= "icon-github" class="fa fa-github" style="font-size:12px"></i>
+        <i id= "icon-linkedin" class="fa fa-linkedin-square" style="font-size:12px"></i>
+      </p>
     </div>
     
-    <!--button-->
-    <div>
-      <button class="etc-font" type="submit">Subscribe</button>
-    </div>    
-     
+    <script src="main.js"></script>
   </body>
 </html>
