@@ -11,7 +11,7 @@
 // })
 
 
-let github = document.getElementById('icon-github')
-let linkedin = document.getElementById('icon-linkedin')
+// let github = document.getElementById('icon-github')
+// let linkedin = document.getElementById('icon-linkedin')
 
 
