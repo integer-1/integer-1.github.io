@@ -1,17 +1,28 @@
-// let menu = document.getElementById('menu')
+//Menubar 관련
 
-// // 마우스를 가져다 대면 메뉴 바 표시
-// menu.addEventListener('mouseenter', function () {
-//   this.style.display = 'block'
-// })
+let homeButton = document.getElementById('home')
+homeButton.addEventListener('click', (event) => {
+  window.location.href = 'https://integer-1.github.io/'
+})
 
-// // 마우스를 벗어나면 메뉴 바 숨김
-// menu.addEventListener('mouseleave', function () {
-//   this.style.display = 'none'
-// })
+let github = document.getElementById('icon-github')
+github.addEventListener('click', (event) => {
+  window.location.href = 'https://github.com/integer-1/'
+})
 
+let linkedin = document.getElementById('icon-linkedin')
+linkedin.addEventListener('click', (event) => {
+  window.location.href = 'https://www.linkedin.com/in/suwon-jeong-225959171/'
+})
 
-// let github = document.getElementById('icon-github')
-// let linkedin = document.getElementById('icon-linkedin')
+let menuButton = document.getElementById('btn')
+menuButton.addEventListener('click', (event) => {
+  document.getElementById('mainText').style.display = 'none'
+  document.getElementById('mainImage').style.display = 'none'
+})
 
-
+let noMenuButton = document.getElementById('cancel')
+noMenuButton.addEventListener('click', (event) => {
+  document.getElementById('mainText').style.display = 'block'
+  document.getElementById('mainImage').style.display = 'block'
+})
