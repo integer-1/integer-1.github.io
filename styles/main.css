@@ -23,9 +23,8 @@ nav:after{
 
 nav img {
   width: 120px;
-  position: absolute;
-  top: 14px;
-  left: 20px;
+  margin-top: 12px;
+  margin-left: 5px;
 }
 
 nav ul {
@@ -303,6 +302,17 @@ label #cancel {
   }
 }
 
+@media only screen and (min-width: 992px) {
+
+#body-size {
+  width: 80%;
+  margin: auto;
+}
+
+}
+
+
+
 /* sub main */
 
 .sub-image-line{
@@ -323,7 +333,7 @@ label #cancel {
   width: 100%;
   font-size: 40px;
   font-family: 'Roboto', sans-serif;
-  color: #E4E2DE;
+  color: white;
   text-shadow: 2px 2px 4px  #2B2B2B;
 }
 
