@@ -154,13 +154,13 @@ label #cancel {
   height: 230px;
   background-color: #E4E2DE;
   border-radius: 5px;
-  margin-right: 10px ;
   font-family: 'Asap', sans-serif;
   color: #2B2B2B;
   font-weight: bold;
   font-size: 20px;
   text-align: center;
-  padding: 10px 0px 10px 0px;
+  padding: 30px 0px 10px 0px;
+  top: auto;
 }
 
 .box-last {
@@ -192,6 +192,11 @@ label #cancel {
   color:#2B2B2B;
   text-decoration:none;
 } 
+
+.box-lists {
+  color: #2B2B2B;
+  font-size: 20px;
+}
 
 /* footer */
 
