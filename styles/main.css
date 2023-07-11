@@ -303,6 +303,31 @@ label #cancel {
   }
 }
 
+/* sub main */
+
+.sub-image-line{
+  background-image: url('../blog/image/test.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 40%;
+  width: 100%;
+  margin-top: 25px;
+}
+
+.sub-text {
+  width: 100%;
+  font-size: 40px;
+  font-family: 'Roboto', sans-serif;
+  color: #E4E2DE;
+  text-shadow: 2px 2px 4px  #2B2B2B;
+}
+
+
 /* who am I */
 .who-h2 {
   font-family: 'Roboto', sans-serif;
@@ -390,6 +415,9 @@ label #cancel {
   padding-left: 10px;
   padding-top: 40px
 }
+
+
+
 
 
 /* @media (max-width:940px) {
