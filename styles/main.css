@@ -329,7 +329,7 @@ label #cancel {
   justify-content: center;
   align-items: center;
   text-align: center;
-  height: 40%;
+  height: 100%;
   width: 100%;
   margin-top: 25px;
 }
@@ -342,12 +342,50 @@ label #cancel {
   text-shadow: 2px 2px 4px  #2B2B2B;
 }
 
+.sub-box{
+  background-color: #2B2B2B;
+  margin-top: 20px;
+  height: auto;
+}
+
+.about-text {
+  font-family: Bungee Shade;
+  color: #E4E2DE;
+  font-size: 50px;
+  padding: 50px;
+}
+
+.about-text-small {
+  font-size: 40px;
+  font-family: 'Asap', sans-serif;
+  color:#2B2B2B;
+  margin-top: 80px;
+  margin-left: 50px;
+  width: 50%;
+  text-align: left;
+}
+
+.about-image {
+  float: right;
+  width: 400px; 
+  margin-top: -500px;
+  margin-right: 50px;
+}
 
 /* who am I */
 .who-h2 {
   font-family: 'Roboto', sans-serif;
   padding-left: 10px;
-  padding-top: 40px
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+.who-h2-span {
+  font-family: 'Roboto', sans-serif;
+  font-style: italic;
+  font-size: 40px;
+
+
 }
 
 .who-first-div-style {
@@ -428,10 +466,12 @@ label #cancel {
 .first-h1 {
   font-family: 'Roboto', sans-serif;
   padding-left: 10px;
-  padding-top: 40px
+  padding-top: 40px;
 }
 
-
+.tech-image {
+  margin-top: 10px;
+}
 
 
 
