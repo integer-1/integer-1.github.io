@@ -2,7 +2,7 @@
 
 let homeButton = document.getElementById('home')
 homeButton.addEventListener('click', (event) => {
-  window.location.href = '../index.html'
+  window.location.href = 'https://integer-1.github.io/'
 })
 
 let github = document.getElementById('icon-github')

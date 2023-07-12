@@ -115,12 +115,12 @@ label #cancel {
 
 /* Main Image */
 
-.main-image-line{
+/* .main-image-line{
   width: 100%;
   position: relative;
   object-fit:cover;
 
-}
+} */
 
 .main-image {
   /* vertical-align: middle;
@@ -502,4 +502,5 @@ label #cancel {
 
 .tech-image {
   margin-top: 10px;
+  margin-bottom: 10px;
 }
