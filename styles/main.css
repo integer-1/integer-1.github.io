@@ -123,21 +123,56 @@ label #cancel {
 }
 
 .main-image {
-  vertical-align: middle;
-  object-fit:cover;
+  /* vertical-align: middle;
+  object-fit:cover; */
+  background-image: url('../blog/image/main-page-image.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100%;
+  width: 100%;
+  margin-top: 25px;
+
 }
 
 .main-text {
   font-family: 'Roboto', sans-serif;
   color: white;
   font-size: 50px;
-  align-content: center;
+  width: 100%;
+  /* align-content: center;
 	text-align: center;
 	position: absolute;
 	top: 50%;
 	left: 50%;
-	transform: translate( -50%,-50% );
+	transform: translate( -50%,-50% ); */
 }
+
+/* .sub-image-line{
+  background-image: url('../blog/image/test.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100%;
+  width: 100%;
+  margin-top: 25px;
+}
+
+.sub-text {
+  width: 100%;
+  font-size: 40px;
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  text-shadow: 2px 2px 4px  #2B2B2B;
+} */
 
 /* Main boxs */
 
@@ -286,11 +321,11 @@ label #cancel {
     display:block;
   }
 
-
+/* 
   .main-image {
     position: relative;
     margin-top: 20px;
-  }
+  } */
 
 
   /* 여기까지 */
@@ -351,24 +386,23 @@ label #cancel {
 .about-text {
   font-family: Bungee Shade;
   color: #E4E2DE;
-  font-size: 50px;
-  padding: 50px;
+  font-size: 40px;
+  padding: 40px;
 }
 
 .about-text-small {
-  font-size: 40px;
+  font-size: 30px;
   font-family: 'Asap', sans-serif;
   color:#2B2B2B;
-  margin-top: 80px;
-  margin-left: 50px;
-  width: 50%;
+  margin-top: 40px;
+  margin-left: 10px;
   text-align: left;
 }
 
 .about-image {
   float: right;
   width: 400px; 
-  margin-top: -500px;
+  margin-top: 20px;
   margin-right: 50px;
 }
 
@@ -384,8 +418,6 @@ label #cancel {
   font-family: 'Roboto', sans-serif;
   font-style: italic;
   font-size: 40px;
-
-
 }
 
 .who-first-div-style {
@@ -422,7 +454,6 @@ label #cancel {
   font-size: 15px;
   font-weight: bolder;
   color: #2B2B2B;
-  /* margin-top: 100px; */
 }
 
 
@@ -472,19 +503,3 @@ label #cancel {
 .tech-image {
   margin-top: 10px;
 }
-
-
-
-/* @media (max-width:940px) {
-  nav img {
-    left: 3%;
-    top: 17px;
-    width: 55px;
-  }
-  nav .log-name {
-    display: none;
-  }
-  nav ul li a{
-   font-size: 17px; 
-  }
-} */
