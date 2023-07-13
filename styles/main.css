@@ -5,6 +5,7 @@
   padding: 0;
   list-style: none;
   text-decoration: none;
+  margin-bottom: 20px;
 }
 
 /* Menu Bar */
@@ -140,8 +141,9 @@ label #cancel {
 }
 
 .main-text {
-  font-family: 'Roboto', sans-serif;
-  color: white;
+  font-family: 'bungee';
+  color: #E4E2DE;
+  text-shadow: 2px 2px 4px  #2B2B2B;
   font-size: 50px;
   width: 100%;
   /* align-content: center;
@@ -180,58 +182,51 @@ label #cancel {
   display: flex; 
   justify-content: flex-start; 
   align-items: stretch;
-  margin-top: 20px;
-  margin-bottom: 50px;
+  margin-top: 30px;
+  /* margin-bottom: 30px; */
 }
 
 #box {
   width: 100%;
-  height: 230px;
+  height: auto;
   background-color: #E4E2DE;
   border-radius: 5px;
-  font-family: 'Asap', sans-serif;
+  font-family: 'bungee';
   color: #2B2B2B;
   font-weight: bold;
-  font-size: 20px;
+  font-size: 30px;
   text-align: center;
   padding: 30px 0px 10px 0px;
   top: auto;
 }
 
-.box-last {
+/* .box-last {
   width: 100%;
   height: 230px;
   background-color: #E4E2DE;
   border-radius: 5px;
-  font-family: 'Asap', sans-serif;
+  font-family: 'roboto';
   color: #2B2B2B;
   font-weight: bold;
   font-size: 20px;
   text-align: center;
   padding: 10px 0px 10px 0px;
-}
+} */
 
 .box-ul {
-  font-family: 'Asap', sans-serif;
+  font-family: 'roboto';
   color: #2B2B2B;
-  font-size: 14px;
+  font-size: 18px;
   list-style: none;
   padding-left: 0px;
-}
-.box-li {
-  margin-top: 5px;
-  padding-top: 10px;
+  padding-top: 30px;
+
 }
 
 .box-a {
   color:#2B2B2B;
   text-decoration:none;
 } 
-
-.box-lists {
-  color: #2B2B2B;
-  font-size: 20px;
-}
 
 /* footer */
 
@@ -321,13 +316,6 @@ label #cancel {
     display:block;
   }
 
-/* 
-  .main-image {
-    position: relative;
-    margin-top: 20px;
-  } */
-
-
   /* 여기까지 */
 
 
@@ -372,9 +360,10 @@ label #cancel {
 .sub-text {
   width: 100%;
   font-size: 40px;
-  font-family: 'Roboto', sans-serif;
-  color: white;
-  text-shadow: 2px 2px 4px  #2B2B2B;
+  /* font-family: 'Roboto', sans-serif; */
+  font-family:  Bungee;
+  color: #2B2B2B;
+  text-shadow: 4px 4px 4px  #E4E2DE;
 }
 
 .sub-box{
@@ -388,22 +377,24 @@ label #cancel {
   color: #E4E2DE;
   font-size: 40px;
   padding: 40px;
+  line-height: 150%;
 }
 
 .about-text-small {
   font-size: 30px;
-  font-family: 'Asap', sans-serif;
+  font-family: 'Barlow Condensed', sans-serif;
   color:#2B2B2B;
-  margin-top: 40px;
-  margin-left: 10px;
+  margin : 40px;
   text-align: left;
+  line-height: 170%;
 }
 
 .about-image {
   float: right;
   width: 400px; 
   margin-top: 20px;
-  margin-right: 50px;
+  margin-right: 20px;
+  margin-left: 20px
 }
 
 /* who am I */
