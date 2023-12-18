@@ -1,5 +1,4 @@
 import { EmailIcon, GithubIcon } from '../components/Icone.tsx'
-import { Link } from 'react-router-dom'
 
 const Contact = () => {
   return (
