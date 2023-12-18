@@ -1,0 +1,266 @@
+.main-body {
+  margin-top: 2%;
+  margin-right: 5%;
+  margin-left: 5%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+
+/* Menu Bar */
+
+nav {
+  height: 60px;
+  background-color: white;
+}
+
+nav:after {
+  content: '';
+  clear: both;
+  display: table;
+}
+
+nav img {
+  width: 180px;
+  margin-top: 12px;
+  margin-left: 20px;
+}
+
+nav ul {
+  float: right;
+  margin-right: 40px;
+  list-style: none;
+  position: relative;
+}
+
+nav ul li {
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  position: relative;
+  color: #2b2b2b;
+  font-size: 17px;
+  padding: 5px 0;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+nav ul li a:before {
+  position: absolute;
+  content: '';
+  left: 0;
+  bottom: 0;
+  height: 3px;
+  width: 100%;
+  background-color: #2b2b2b;
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 0.4s linear;
+}
+
+nav ul li a:hover:before {
+  transform: scaleX(1);
+  transform-origin: left;
+}
+
+
+@media (max-width: 860px) {
+  
+}
+
+@media only screen and (min-width: 992px) {
+  #body-size {
+    width: 80%;
+    margin: auto;
+  }
+}
+
+/* Home.tsx */
+.home {
+  margin-top: 80px;
+  margin-left: 8%;
+  margin-right: 8%;
+}
+
+.home .main-title {
+  font-family: 'Garamond';
+  font-weight: 200;
+  font-size: 45px;
+  margin-top: 40px;
+}
+
+.home .about-path {
+  font-family: 'Garamond';
+  font-size: 25px;
+  font-weight: 200;
+  color: #2b2b2b;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 10px;
+  text-decoration: none;
+}
+
+.line {
+  background-color: rgba(174, 172, 172, 0.71);
+  height: 0.5px;
+}
+
+.project-preview {
+  font-family: 'Garamond';
+  font-weight: 200;
+}
+
+.project-preview p {
+  margin-top: 10px;
+  margin-bottom: -3px;
+  font-size: 30px;
+}
+
+.project-preview a {
+  font-size: 18px;
+  text-decoration: none;
+  color: #2b2b2b;
+}
+
+/* About.tsx */
+
+.about {
+  margin-top: 80px;
+  margin-left: 8%;
+  margin-right: 8%;
+}
+
+.about .box {
+  background-color: #2b2b2b;
+  height: 500px;
+}
+
+.about .box p {
+  font-family: 'Garamond';
+  font-weight: 200;
+  font-size: 45px;
+  padding: 100px;
+  color: #e4e2de;
+}
+
+.about-list {
+  margin-top: 50px;
+  color: #2b2b2b;
+  font-family: 'poppins';
+  font-size: 15px;
+}
+
+.about-list .line {
+  margin-top: 6%;
+  margin-left: -30%;
+}
+
+.reference-box {
+  margin-top: 100px;
+  /* width: 90%; */
+}
+
+.reference-box .reference-container {
+  margin-left: 3%;
+  margin-right: 3%;
+  margin-top: 50px;
+}
+
+.reference-box .reference-container .circle {
+  width: 180px;
+  height: 180px;
+  background-color: #2b2b2b;
+  border-radius: 50%;
+}
+
+.reference-box p {
+  font-family: 'poppins';
+  font-size: 15px;
+  font-weight: 100;
+  /* text-align-last: justify; */
+}
+
+/* group-projects */
+
+.group {
+  margin-top: 100px;
+  margin-left: 8%;
+  margin-right: 8%;
+}
+
+.group .main-title {
+  font-family: 'Garamond';
+  font-size: 45px;
+  font-weight: 200;
+}
+
+.group .list {
+  margin-top: 40px;
+}
+
+.group .list .list-detail {
+  /* align-items: center; */
+  margin-bottom: 80px;
+}
+
+.group .list .list-detail .title {
+  font-family: 'Garamond';
+  font-size: 22px;
+  font-weight: 200;
+}
+
+.group .list .list-detail .explain {
+  font-family: 'poppins';
+  font-size: 15px;
+  font-weight: 100;
+}
+
+.group .list .list-detail a {
+  text-decoration: none;
+  color: #2b2b2b;
+  font-family: 'poppins';
+  font-size: 15px;
+  /* font-weight: 100; */
+}
+
+.group .box {
+  background-color: #e4e2de;
+  height: 100px;
+}
+
+/* footer */
+footer {
+  margin-top: 100px;
+  padding: 100px;
+  height: 50px;
+  margin-right: -5.5%;
+  margin-left: -5.5%;
+  background-color: #2b2b2b;
+  font-family: 'poppins';
+  font-size: 15px;
+  font-weight: 100;
+  color: #eeedeb;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer div a {
+  text-decoration: none;
+  color: #eeedeb;
+  text-decoration: none;
+}
+
+footer .copyright {
+  font-size: 12px;
+}
