@@ -1,5 +1,5 @@
 import MySkill from '../components/MySkill.tsx'
-import References from '../components/References.tsx'
+import References from './References.tsx'
 
 const About = () => {
   return (
@@ -8,14 +8,13 @@ const About = () => {
         <p>
           Hi, I&apos;m Suwon.<br />
           Business-savvy software developer <br />
-          seasoned in business analysis and brand management
+          seasoned in business analysis and brand management.
         </p>
       </div>
 
       <MySkill />
-      <References />
       
-      <div className="line"></div>
+      <div className="end_line"></div>
 
     </div>
   )

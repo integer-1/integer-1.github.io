@@ -1,5 +1,5 @@
 {
-  "name": "boilerplate-react-api",
+  "name": "integer.1_portfolio",
   "type": "module",
   "version": "0.2.3",
   "description": "A react starter",
@@ -7,7 +7,7 @@
     "type": "git",
     "url": "git+https://github.com/dev-academy-challenges/boilerplate-react-webpack.git"
   },
-  "author": "Dev Academy Aotearoa",
+  "author": "Suwon Jeong",
   "license": "ISC",
   "scripts": {
     "start": "node dist/server.js",

@@ -8,7 +8,7 @@ export default function Home() {
       </p>
       <HomeImageSlide />
 
-      <a href="/#projects" className="about-path">
+      <a href="/#projects" className="project-path">
         Discover my projects &#187;
       </a>
 

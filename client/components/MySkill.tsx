@@ -12,7 +12,7 @@ const listOfDid3 = [
 
 const MySkill = () => {
   return (
-    <div id="skills" className="about-list">
+    <div id="skills" className="skills-list">
       <Container>
         <Row>
           <Col>

@@ -2,14 +2,14 @@ import { Container, Row, Col } from 'react-bootstrap'
 
 const References = () => {
   return (
-    <div id="references" className="reference-box">
+    <div id="references" className="reference">
       <Container>
         <div className="reference-container">
           <Row>
-            <Col sm={4}>
-              <div className="circle"></div>
+            <Col xs={12} md={3} xl={3} >
+              <div className="circle"><img  className="img-circle" src='../home/rabbit.png' alt='reference1'/></div>
             </Col>
-            <Col sm={8}>
+            <Col xs={12} md={9} xl={9}>
               <p>
                 It was an absolute pleasure to work with Suwon. One of her many
                 talents is that she’s great at communicating with others and
@@ -26,7 +26,7 @@ const References = () => {
             </Col>
           </Row>
         </div>
-        <div className="reference-container">
+        {/* <div className="reference-container">
           <Row>
             <Col sm={8}>
               <p>
@@ -38,9 +38,9 @@ const References = () => {
                 <br />
                 <br />
                 <span>
-                  Sara james back
+                  John
                   <br />
-                  As a new software developer
+                  Dav Academy Aotearoa Facilitator
                 </span>
               </p>
             </Col>
@@ -48,8 +48,10 @@ const References = () => {
               <div className="circle"></div>
             </Col>
           </Row>
-        </div>
+        </div> */}
       </Container>
+      <div className="end_line"></div>
+
     </div>
   )
 }

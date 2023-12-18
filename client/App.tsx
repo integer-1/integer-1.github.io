@@ -3,7 +3,8 @@ import About from './screens/About.tsx'
 import Projects from './screens/Projects.tsx'
 import NavBar from './components/NavBar.tsx'
 import Footer from './components/Footer.tsx'
-import Contact from './components/Contact.tsx'
+import Contact from './screens/Contact.tsx'
+import References from './screens/References.tsx'
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Home />
       <About />
       <Projects />
+      <References/>
       <Contact/>
       <Footer/>
     </>

@@ -1,9 +1,3 @@
-.main-body {
-  margin-top: 2%;
-  margin-right: 5%;
-  margin-left: 5%;
-}
-
 * {
   margin: 0;
   padding: 0;
@@ -11,12 +5,15 @@
   text-decoration: none;
 }
 
-
+.main-body {
+  margin-top: 2%;
+}
 /* Menu Bar */
 
 nav {
   height: 60px;
   background-color: white;
+  /* position: fixed; */
 }
 
 nav:after {
@@ -47,7 +44,6 @@ nav ul li {
 nav ul li a {
   position: relative;
   color: #2b2b2b;
-  font-size: 17px;
   padding: 5px 0;
   text-transform: uppercase;
   text-decoration: none;
@@ -71,33 +67,20 @@ nav ul li a:hover:before {
   transform-origin: left;
 }
 
-
-@media (max-width: 860px) {
-  
-}
-
-@media only screen and (min-width: 992px) {
-  #body-size {
-    width: 80%;
-    margin: auto;
-  }
-}
-
 /* Home.tsx */
 .home {
   margin-top: 80px;
-  margin-left: 8%;
-  margin-right: 8%;
+  margin-left: 1%;
+  margin-right: 1%;
 }
 
 .home .main-title {
   font-family: 'Garamond';
   font-weight: 200;
-  font-size: 45px;
   margin-top: 40px;
 }
 
-.home .about-path {
+.home .project-path {
   font-family: 'Garamond';
   font-size: 25px;
   font-weight: 200;
@@ -109,6 +92,7 @@ nav ul li a:hover:before {
   margin-bottom: 10px;
   text-decoration: none;
 }
+
 
 .line {
   background-color: rgba(174, 172, 172, 0.71);
@@ -136,8 +120,8 @@ nav ul li a:hover:before {
 
 .about {
   margin-top: 80px;
-  margin-left: 8%;
-  margin-right: 8%;
+  margin-left: 1%;
+  margin-right: 1%;
 }
 
 .about .box {
@@ -153,98 +137,137 @@ nav ul li a:hover:before {
   color: #e4e2de;
 }
 
-.about-list {
+/* skills */
+.skills-list {
   margin-top: 50px;
   color: #2b2b2b;
   font-family: 'poppins';
-  font-size: 15px;
 }
 
-.about-list .line {
+.skills-list .line {
   margin-top: 6%;
   margin-left: -30%;
 }
 
-.reference-box {
+/* reference */
+
+.reference {
   margin-top: 100px;
-  /* width: 90%; */
+  margin-left: 1%;
+  margin-right: 1%;
 }
 
-.reference-box .reference-container {
+.reference .reference-container {
   margin-left: 3%;
   margin-right: 3%;
   margin-top: 50px;
 }
 
-.reference-box .reference-container .circle {
+.reference .reference-container .circle {
   width: 180px;
   height: 180px;
   background-color: #2b2b2b;
   border-radius: 50%;
 }
 
-.reference-box p {
+.reference .reference-container .circle .img-circle {
+  width: 90px;
+  height: 100px;
+  margin-top: 47%;
+  margin-left: 25%;
+}
+
+.reference p {
   font-family: 'poppins';
   font-size: 15px;
   font-weight: 100;
-  /* text-align-last: justify; */
 }
 
-/* group-projects */
+/* projects */
 
-.group {
+.project {
   margin-top: 100px;
-  margin-left: 8%;
-  margin-right: 8%;
+  margin-left: 2%;
+  margin-right: 2%;
 }
 
-.group .main-title {
+.project .main-title {
   font-family: 'Garamond';
-  font-size: 45px;
   font-weight: 200;
 }
 
-.group .list {
+.project .list {
   margin-top: 40px;
 }
 
-.group .list .list-detail {
-  /* align-items: center; */
+.project .list .list-detail {
   margin-bottom: 80px;
 }
 
-.group .list .list-detail .title {
+.project .list .list-detail .title {
   font-family: 'Garamond';
-  font-size: 22px;
   font-weight: 200;
 }
 
-.group .list .list-detail .explain {
+.project .list .list-detail .date {
   font-family: 'poppins';
-  font-size: 15px;
+  margin-top: -12px;
+}
+
+.project .list .list-detail .explain {
+  font-family: 'poppins';
   font-weight: 100;
 }
 
-.group .list .list-detail a {
+.project .list .list-detail .skill_of_project {
+  font-family: 'poppins';
+  font-weight: 400;
+}
+
+.project .list .list-detail a {
   text-decoration: none;
   color: #2b2b2b;
   font-family: 'poppins';
-  font-size: 15px;
-  /* font-weight: 100; */
 }
 
-.group .box {
+.project .box {
   background-color: #e4e2de;
   height: 100px;
+}
+
+/* contact */
+.contact {
+  margin-top: 100px;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+.contact-box {
+  margin-left: 20px;
+}
+
+.contact .contact-title {
+  font-family: 'Garamond';
+  font-weight: 200;
+}
+
+.contact .email,
+.contact .github {
+  font-family: 'poppins';
+  font-weight: 100;
+  color: #2b2b2b;
+}
+
+.github a{
+  text-decoration: none;
+  color: #2b2b2b;
 }
 
 /* footer */
 footer {
   margin-top: 100px;
-  padding: 100px;
-  height: 50px;
-  margin-right: -5.5%;
-  margin-left: -5.5%;
+  padding: 5%;
+  height: 10px;
   background-color: #2b2b2b;
   font-family: 'poppins';
   font-size: 15px;
@@ -255,12 +278,112 @@ footer {
   align-items: center;
 }
 
-footer div a {
-  text-decoration: none;
-  color: #eeedeb;
-  text-decoration: none;
-}
-
 footer .copyright {
   font-size: 12px;
+}
+
+.end_line {
+  margin-top: 100px;
+  background-color: rgba(174, 172, 172, 0.71);
+  height: 0.5px;
+}
+
+@media (max-width: 1200px) {
+  .home .main-title {
+    font-size: 60px;
+  }
+
+  nav ul li a {
+    font-size: 20px;
+  }
+  .skills-list {
+    font-size: 25px;
+  }
+  .project .list .list-detail .title {
+    font-size: 40px;
+  }
+
+  .project .list .list-detail .date {
+    font-size: 30px;
+  }
+  .project .list .list-detail .explain {
+    font-size: 25px;
+  }
+  .project .list .list-detail .skill_of_project {
+    font-size: 20px;
+  }
+  .project .main-title {
+    font-size: 70px;
+  }
+  .project .list .list-detail a {
+    font-size: 20px;
+  }
+  .reference p {
+    font-size: 22px;
+  }
+
+  .reference .reference-container .circle {
+    margin-left: -10%;
+  }
+
+  .contact-title {
+    font-size: 60px;
+  }
+  .contact .email,
+  .contact .github {
+    font-size: 25px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .main-body {
+    margin-top: 2%;
+    margin-right: 10%;
+    margin-left: 10%;
+  }
+  nav ul li a {
+    font-size: 17px;
+  }
+
+  .home .main-title {
+    font-size: 45px;
+  }
+
+  .skills-list {
+    font-size: 15px;
+  }
+  .project .list .list-detail .title {
+    font-size: 22px;
+  }
+
+  .project .list .list-detail .date {
+    font-size: 14px;
+  }
+
+  .project .list .list-detail .explain {
+    font-size: 15px;
+  }
+  .project .list .list-detail .skill_of_project {
+    font-size: 13px;
+  }
+
+  .project .main-title {
+    font-size: 45px;
+  }
+
+  .project .list .list-detail a {
+    font-size: 15px;
+  }
+  .reference p {
+    font-size: 15px;
+  }
+
+  .contact-title {
+    font-size: 45px;
+  }
+
+  .contact .email,
+  .contact .github {
+    font-size: 15px;
+  }
 }

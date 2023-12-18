@@ -2,13 +2,14 @@ import ListOfProjects from '../components/ListOfProjects.tsx'
 
 const Projects = () => {
   return (
-    <div className="group">
+    <div className="project">
       <p id="projects" className="main-title">
         An industry solution <br />
-        for Group Projects
+        for My Projects
       </p>
 
       <ListOfProjects />
+      <div className="end_line"></div>
 
     </div>
   )
