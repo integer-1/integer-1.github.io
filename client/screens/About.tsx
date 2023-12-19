@@ -1,4 +1,3 @@
-import React from 'react'
 import MySkill from '../components/MySkill.tsx'
 
 const cvFileUrl = 'https://drive.google.com/file/d/1ststtnpCDfwu4LXLae6cSS1nVbUL8PBD/view?usp=drive_link'

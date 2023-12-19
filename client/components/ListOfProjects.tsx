@@ -31,7 +31,7 @@ const groupProjects = [
     url: 'http://the-space-guys.devacademy.nz/',
     code: 'https://github.com/integer-1/sum-game',
     src: home3,
-    skills: 'JavaScript · Matter.js · HTML5 · Vite· Node.js',
+    skills: 'JavaScript · Matter.js · HTML5 · CSS · Vite· Node.js',
   },
 ]
 

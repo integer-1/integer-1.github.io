@@ -8,12 +8,12 @@
 .main-body {
   margin-top: 2%;
 }
+
 /* Menu Bar */
 
 nav {
   height: 60px;
   background-color: white;
-  /* position: fixed; */
 }
 
 nav:after {
@@ -157,8 +157,8 @@ nav ul li a:hover:before {
   text-align: center;
   text-transform: none;
   touch-action: manipulation;
-  user-select: none;
   -webkit-user-select: none;
+  user-select: none;
   vertical-align: middle;
   white-space: nowrap;
 }
@@ -281,7 +281,7 @@ nav ul li a:hover:before {
   font-weight: 400;
 }
 
-.project .list .list-detail a{
+.project .list .list-detail a {
   text-decoration: none;
   color: #2b2b2b;
   font-family: 'poppins';
@@ -358,10 +358,12 @@ footer .copyright {
   nav ul li a {
     font-size: 20px;
   }
+
   .skills-list {
     margin-left: -20px;
     font-size: 22px;
   }
+
   .project .list .list-detail .title {
     font-size: 40px;
   }
@@ -369,15 +371,19 @@ footer .copyright {
   .project .list .list-detail .date {
     font-size: 30px;
   }
+
   .project .list .list-detail .explain {
     font-size: 25px;
   }
+
   .project .list .list-detail .skill_of_project {
     font-size: 20px;
   }
+
   .project .main-title {
     font-size: 70px;
   }
+
   .project .list .list-detail a {
     font-size: 20px;
   }
@@ -401,6 +407,7 @@ footer .copyright {
   .contact-title {
     font-size: 60px;
   }
+
   .contact .email,
   .contact .github {
     font-size: 25px;
@@ -429,6 +436,7 @@ footer .copyright {
   .skills-list {
     font-size: 15px;
   }
+
   .project .list .list-detail .title {
     font-size: 22px;
   }
@@ -440,6 +448,7 @@ footer .copyright {
   .project .list .list-detail .explain {
     font-size: 15px;
   }
+
   .project .list .list-detail .skill_of_project {
     font-size: 13px;
   }
@@ -459,6 +468,7 @@ footer .copyright {
   #references .title {
     font-size: 45px;
   }
+
   .reference .reference1 {
     font-size: 15px;
   }
