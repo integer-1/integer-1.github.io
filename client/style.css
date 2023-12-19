@@ -281,10 +281,11 @@ nav ul li a:hover:before {
   font-weight: 400;
 }
 
-.project .list .list-detail a {
+.project .list .list-detail a{
   text-decoration: none;
   color: #2b2b2b;
   font-family: 'poppins';
+  margin-right: 30px;
 }
 
 .project .box {
@@ -380,6 +381,11 @@ footer .copyright {
   .project .list .list-detail a {
     font-size: 20px;
   }
+
+  .project .list .list-detail .project_image_box {
+    margin-top: 40px;
+  }
+
   .reference .title {
     font-size: 70px;
   }
@@ -444,6 +450,10 @@ footer .copyright {
 
   .project .list .list-detail a {
     font-size: 15px;
+  }
+
+  .project .list .list-detail .project_image_box {
+    margin-top: 0;
   }
 
   #references .title {

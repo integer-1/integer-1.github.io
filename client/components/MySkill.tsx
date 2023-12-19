@@ -1,13 +1,11 @@
 import { Container, Row, Col } from 'react-bootstrap'
 
-const listOfDid1 = ['HTML', 'CSS', 'React.js', 'JavaScript', 'TypeScript','Git']
-const listOfDid2 = ['Redux', 'HandleBar', 'Knex.js', 'SQLite', 'JSON', 'Dokku']
-const listOfDid3 = [
-  'RESTful APIs',
-  'node.js',
-  'Express.js',
-  'vitest',
-  'API testing',
+const skillCategories = [
+  { skills: ['HTML', 'CSS', 'React.js', 'JavaScript', 'TypeScript', 'Git'] },
+  { skills: ['Redux', 'HandleBar', 'Knex.js', 'SQLite', 'JSON', 'Dokku'] },
+  {
+    skills: ['RESTful APIs', 'node.js', 'Express.js', 'vitest', 'API testing'],
+  },
 ]
 
 const MySkill = () => {
@@ -21,27 +19,15 @@ const MySkill = () => {
           <Col>
             <div className="line"></div>
           </Col>
-          <Col>
-            <ul>
-              {listOfDid1.map((list) => (
-                <li key={list}>{list}</li>
-              ))}
-            </ul>
-          </Col>
-          <Col>
-            <ul>
-              {listOfDid2.map((list) => (
-                <li key={list}>{list}</li>
-              ))}
-            </ul>
-          </Col>
-          <Col>
-            <ul>
-              {listOfDid3.map((list) => (
-                <li key={list}>{list}</li>
-              ))}
-            </ul>
-          </Col>
+          {skillCategories.map((category, index) => (
+            <Col key={index}>
+              <ul>
+                {category.skills.map((skill) => (
+                  <li key={skill}>{skill}</li>
+                ))}
+              </ul>
+            </Col>
+          ))}
         </Row>
       </Container>
     </div>
