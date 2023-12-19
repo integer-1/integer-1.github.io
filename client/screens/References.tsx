@@ -34,6 +34,31 @@ const References = () => {
                 </p>
               </Col>
             </Row>
+            <Row style={{marginTop: "100px"}}>
+              <Col xs={12} md={9} xl={9}>
+                <p className="reference1">
+                  Suwon is a talented and dedicated software developer. She was
+                  an asset to her dev teams while completing group work at Dev
+                  Academy and was unafraid to challenge herself with new
+                  technologies and ways of doing things. She is self-motivated
+                  and committed to producing high quality work.
+                  <br />
+                  <br />
+                  <span>John Gray</span>
+                  <br />
+                  <span>Bootcamp Facilitator, Dev Academy Aotearoa</span>
+                </p>
+              </Col>
+              <Col xs={12} md={3} xl={3}>
+                <div className="circle">
+                  <img
+                    className="img-circle"
+                    src={rabbit_png}
+                    alt="reference1"
+                  />
+                </div>
+              </Col>
+            </Row>
           </div>
         </Container>
         <div className="end_line"></div>
