@@ -1,11 +1,11 @@
 import { Container, Row, Col } from 'react-bootstrap'
 
-const listOfDid1 = ['HTML', 'CSS', 'React', 'Redux', 'HandleBar']
-const listOfDid2 = ['JavaScript', 'TypeScript', 'Knex', 'SQLite', 'JSON']
+const listOfDid1 = ['HTML', 'CSS', 'React.js', 'JavaScript', 'TypeScript','Git']
+const listOfDid2 = ['Redux', 'HandleBar', 'Knex.js', 'SQLite', 'JSON', 'Dokku']
 const listOfDid3 = [
   'RESTful APIs',
   'node.js',
-  'express',
+  'Express.js',
   'vitest',
   'API testing',
 ]

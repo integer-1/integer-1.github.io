@@ -184,6 +184,9 @@ nav ul li a:hover:before {
   font-family: 'poppins';
   font-size: 15px;
   font-weight: 100;
+  margin-left: 20px;
+  margin-right: 20px;
+
 }
 
 /* projects */
@@ -304,7 +307,8 @@ footer .copyright {
     font-size: 20px;
   }
   .skills-list {
-    font-size: 25px;
+    margin-left: -20px;
+    font-size: 22px;
   }
   .project .list .list-detail .title {
     font-size: 40px;
