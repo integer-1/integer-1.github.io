@@ -34,7 +34,7 @@ const References = () => {
                 </p>
               </Col>
             </Row>
-            <Row style={{marginTop: "100px"}}>
+            <Row style={{ marginTop: '100px' }}>
               <Col xs={12} md={9} xl={9}>
                 <p className="reference1">
                   Suwon is a talented and dedicated software developer. She was

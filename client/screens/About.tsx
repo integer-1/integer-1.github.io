@@ -1,17 +1,13 @@
 import MySkill from '../components/MySkill.tsx'
 
 const cvFileUrl = 'https://integer-1.github.io/Suwon_Jeong_CV.pdf'
+const cvFileName = 'Suwon_Jeong_CV.pdf'
 
 const About = () => {
-
   const downloadPDF = (url: string) => {
-    const fileName = url.split('/').pop()
     const aTag = document.createElement('a')
-
-    if (fileName === undefined) return <p>Sorry can not download CV</p>
-
     aTag.href = url
-    aTag.setAttribute('download', fileName)
+    aTag.setAttribute('download', cvFileName)
     document.body.appendChild(aTag)
     aTag.click()
     aTag.remove()
@@ -29,13 +25,17 @@ const About = () => {
           seasoned in business analysis and brand management.
         </p>
       </div>
+
       <MySkill />
+
       <button
-      className='download'
+        className="download"
         onClick={() => {
           downloadPDF(cvFileUrl)
         }}
-      >CV download</button>
+      >
+        CV download
+      </button>
 
       <div className="end_line"></div>
     </div>

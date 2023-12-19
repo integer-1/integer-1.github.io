@@ -4,8 +4,6 @@ const Projects = () => {
   return (
     <div className="project">
       <p id="projects" className="main-title">
-        {/* An industry solution <br />
-        for My Projects */}
         Projects
       </p>
 
