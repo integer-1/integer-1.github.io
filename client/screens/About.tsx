@@ -1,6 +1,7 @@
+import React from 'react'
 import MySkill from '../components/MySkill.tsx'
 
-const cvFileUrl = 'https://integer-1.github.io/Suwon_Jeong_CV.pdf'
+const cvFileUrl = 'https://drive.google.com/file/d/1ststtnpCDfwu4LXLae6cSS1nVbUL8PBD/view?usp=drive_link'
 const cvFileName = 'Suwon_Jeong_CV.pdf'
 
 const About = () => {
