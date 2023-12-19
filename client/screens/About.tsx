@@ -29,12 +29,13 @@ const About = () => {
           seasoned in business analysis and brand management.
         </p>
       </div>
+      <MySkill />
       <button
+      className='download'
         onClick={() => {
           downloadPDF(cvFileUrl)
         }}
-      >download</button>
-      <MySkill />
+      >CV download</button>
 
       <div className="end_line"></div>
     </div>
