@@ -1,6 +1,6 @@
 import MySkill from '../components/MySkill.tsx'
 
-const cvFileUrl = 'http://localhost:5173/Suwon_Jeong_CV.pdf'
+const cvFileUrl = 'https://integer-1.github.io/Suwon_Jeong_CV.pdf'
 
 const About = () => {
 
