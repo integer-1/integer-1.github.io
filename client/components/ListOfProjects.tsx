@@ -19,7 +19,7 @@ const groupProjects = [
     date: 'Nov 2023',
     explain: `Designed to help you decide what to cook based on the ingredients you have in your kitchen. It utilizes the ChatGPT API and React to provide a seamless experience in generating, saving, and managing recipes`,
     url: 'https://intelli-chef.pushed.nz/',
-    code: '/',
+    code: 'https://github.com/integer-1/intelli-chef',
     src: home2,
     skills:
       'TypeScript · JavaScript · React.js · SQLite · Express.js · Knex.js · Docker · CSS · HTML5 · Node.js',
