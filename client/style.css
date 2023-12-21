@@ -430,12 +430,15 @@ footer .copyright {
 
   .reference .reference-author {
     font-size: 22px;
+    margin-top: -20px;
+    text-align: right;
   }
 
   .reference .reference-position {
     font-size: 18px;
+    margin-top: -10px;
     margin-bottom: 80px;
-
+    text-align: right;
   }
 
   .contact-title {
@@ -509,16 +512,20 @@ footer .copyright {
 
   .reference .reference-author {
     font-size: 15px;
+    margin-top: -15px;
+    text-align: right;
   }
 
   .reference .reference-position {
     font-size: 13px;
+    margin-top: -15px;
+    text-align: right;
   }
 
   .reference .reference-container .circle {
     width: 100px;
     height: 100px;
-    margin-left: 34%;
+    margin-left: 37%;
     margin-bottom: 10%;
   }
 
