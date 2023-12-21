@@ -1,3 +1,11 @@
+:root {
+  --color-dark: #2b2b2b;
+  --color-light: white;
+  --color-beige: #e4e2de;
+  --titleFont: 'Garamond';
+  --textFont: 'poppins';
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -13,7 +21,7 @@
 
 nav {
   height: 60px;
-  background-color: white;
+  background-color: var(--color-light);
 }
 
 nav:after {
@@ -42,7 +50,7 @@ nav ul li {
 
 nav ul li a {
   position: relative;
-  color: #2b2b2b;
+  color: var(--color-dark);
   padding: 5px 0;
   text-transform: uppercase;
   text-decoration: none;
@@ -55,7 +63,7 @@ nav ul li a:before {
   bottom: 0;
   height: 3px;
   width: 100%;
-  background-color: #2b2b2b;
+  background-color: var(--color-dark);
   transform: scaleX(0);
   transform-origin: right;
   transition: transform 0.4s linear;
@@ -74,16 +82,16 @@ nav ul li a:hover:before {
 }
 
 .home .main-title {
-  font-family: 'Garamond';
+  font-family: var(--titleFont);
   font-weight: 200;
   margin-top: 40px;
 }
 
 .home .project-path {
-  font-family: 'Garamond';
+  font-family: var(--titleFont);
   font-size: 25px;
   font-weight: 200;
-  color: #2b2b2b;
+  color: var(--color-dark);
   display: flex;
   justify-content: right;
   align-items: center;
@@ -98,7 +106,7 @@ nav ul li a:hover:before {
 }
 
 .project-preview {
-  font-family: 'Garamond';
+  font-family: var(--titleFont);
   font-weight: 200;
 }
 
@@ -111,7 +119,7 @@ nav ul li a:hover:before {
 .project-preview a {
   font-size: 18px;
   text-decoration: none;
-  color: #2b2b2b;
+  color: var(--color-dark);
 }
 
 /* About.tsx */
@@ -123,29 +131,29 @@ nav ul li a:hover:before {
 }
 
 .about .box {
-  background-color: #2b2b2b;
+  background-color: var(--color-dark);
   height: 500px;
 }
 
 .about .box p {
-  font-family: 'Garamond';
+  font-family: var(--titleFont);
   font-weight: 200;
   font-size: 45px;
   padding: 100px;
-  color: #e4e2de;
+  color: var(--color-beige);
 }
 
 .about .download {
   float: right;
-  font-family: 'poppins';
+  font-family: var(--textFont);
   appearance: button;
-  background-color: #000;
+  background-color: var(--color-dark);
   background-image: none;
-  border: 1px solid #000;
+  border: 1px solid var(--color-dark);
   border-radius: 4px;
-  box-shadow: #fff 4px 4px 0 0, #000 4px 4px 0 1px;
+  box-shadow: var(--color-light) 4px 4px 0 0, var(--color-dark) 4px 4px 0 1px;
   box-sizing: border-box;
-  color: #fff;
+  color: var(--color-light);
   cursor: pointer;
   display: inline-block;
   font-size: 14px;
@@ -177,7 +185,7 @@ nav ul li a:hover:before {
 }
 
 .about .download:not([disabled]):active {
-  box-shadow: #fff 2px 2px 0 0, #000 2px 2px 0 1px;
+  box-shadow: var(--color-light) 2px 2px 0 0, var(--color-dark) 2px 2px 0 1px;
   transform: translate(2px, 2px);
 }
 
@@ -190,8 +198,8 @@ nav ul li a:hover:before {
 /* skills */
 .skills-list {
   margin-top: 50px;
-  color: #2b2b2b;
-  font-family: 'poppins';
+  color: var(--color-dark);
+  font-family: var(--textFont);
 }
 
 .skills-list .line {
@@ -208,33 +216,30 @@ nav ul li a:hover:before {
 }
 
 .reference .title {
-  font-family: 'Garamond';
+  font-family: var(--titleFont);
   font-weight: 200;
 }
 
-.reference .reference-container {
-  margin-left: 3%;
-  margin-right: 3%;
-  margin-top: 50px;
-}
-
-.reference .reference-container .circle {
-  width: 180px;
-  height: 180px;
-  background-color: #2b2b2b;
-  border-radius: 50%;
-}
-
-.reference .reference-container .circle .img-circle {
-  width: 90px;
-  height: 100px;
-  margin-top: 47%;
-  margin-left: 25%;
-}
-
-.reference p {
-  font-family: 'poppins';
+.reference .reference-text {
+  font-family: var(--textFont);
   font-size: 15px;
+  font-weight: 100;
+  margin-left: 20px;
+  margin-right: 20px;
+  text-align: justify;
+}
+
+.reference .reference-author {
+  font-family: var(--textFont);
+  font-size: 15px;
+  font-weight: 400;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.reference .reference-position {
+  font-family: var(--textFont);
+  font-size: 13px;
   font-weight: 100;
   margin-left: 20px;
   margin-right: 20px;
@@ -249,7 +254,7 @@ nav ul li a:hover:before {
 }
 
 .project .main-title {
-  font-family: 'Garamond';
+  font-family: var(--titleFont);
   font-weight: 200;
 }
 
@@ -262,29 +267,30 @@ nav ul li a:hover:before {
 }
 
 .project .list .list-detail .title {
-  font-family: 'Garamond';
+  font-family: var(--titleFont);
   font-weight: 200;
 }
 
 .project .list .list-detail .date {
-  font-family: 'poppins';
+  font-family: var(--titleFont);
   margin-top: -12px;
 }
 
 .project .list .list-detail .explain {
-  font-family: 'poppins';
+  font-family: var(--textFont);
   font-weight: 100;
+  text-align: justify;
 }
 
 .project .list .list-detail .skill_of_project {
-  font-family: 'poppins';
+  font-family: var(--textFont);
   font-weight: 400;
 }
 
 .project .list .list-detail a {
   text-decoration: none;
-  color: #2b2b2b;
-  font-family: 'poppins';
+  color: var(--color-dark);
+  font-family: var(--textFont);
   margin-right: 30px;
 }
 
@@ -305,20 +311,20 @@ nav ul li a:hover:before {
 }
 
 .contact-title {
-  font-family: 'Garamond';
+  font-family: var(--titleFont);
   font-weight: 200;
 }
 
 .contact .email,
 .contact .github {
-  font-family: 'poppins';
+  font-family: var(--textFont);
   font-weight: 100;
-  color: #2b2b2b;
+  color: var(--color-dark);
 }
 
 .github a {
   text-decoration: none;
-  color: #2b2b2b;
+  color: var(--color-dark);
 }
 
 /* footer */
@@ -326,8 +332,8 @@ footer {
   margin-top: 100px;
   padding: 5%;
   height: 10px;
-  background-color: #2b2b2b;
-  font-family: 'poppins';
+  background-color: var(--color-dark);
+  font-family: var(--textFont);
   font-size: 15px;
   font-weight: 100;
   color: #eeedeb;
@@ -396,12 +402,40 @@ footer .copyright {
     font-size: 70px;
   }
 
-  .reference .reference1 {
-    font-size: 22px;
+  .reference .reference-box {
+    border-bottom: 1px dashed #ccc;
+  }
+
+  .reference .reference-container {
+    margin-top: 50px;
+    height: 100%;
+    display: flex;
   }
 
   .reference .reference-container .circle {
-    margin-left: -10%;
+    width: 100px;
+    height: 100px;
+    margin-top: 40px;
+  }
+
+  .reference .reference-container .circle .img-circle {
+    width: 50px;
+    height: 55px;
+    margin-left: 25%;
+  }
+
+  .reference .reference-text {
+    font-size: 22px;
+  }
+
+  .reference .reference-author {
+    font-size: 22px;
+  }
+
+  .reference .reference-position {
+    font-size: 18px;
+    margin-bottom: 80px;
+
   }
 
   .contact-title {
@@ -469,8 +503,30 @@ footer .copyright {
     font-size: 45px;
   }
 
-  .reference .reference1 {
+  .reference .reference-text {
     font-size: 15px;
+  }
+
+  .reference .reference-author {
+    font-size: 15px;
+  }
+
+  .reference .reference-position {
+    font-size: 13px;
+  }
+
+  .reference .reference-container .circle {
+    width: 100px;
+    height: 100px;
+    margin-left: 34%;
+    margin-bottom: 10%;
+  }
+
+  .reference .reference-container .circle .img-circle {
+    width: 50px;
+    height: 55px;
+    margin-top: 47%;
+    margin-left: 25%;
   }
 
   .contact-title {
