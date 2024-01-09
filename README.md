@@ -47,14 +47,14 @@ Project <a href="https://intelli-chef.pushed.nz/">View >> </a> <br/>
 
 <br><br>
 
-### ArcadePulse (in development)
+<!-- ### ArcadePulse (in development)
 #### Dec 2023 - Current
 
 Discover a handpicked selection of games to keep you entertained during busy or dull moments. Dive in for a quick mental boost and enjoy the pulse of ArcadePulse!
 
 #### skill : JavaScript · Matter.js · HTML5 · Vite· Node.js
 
-<img src="./client/images/home3.png" alt="project3">
+<img src="./client/images/home3.png" alt="project3"> -->
 
 
 ## Contact me
