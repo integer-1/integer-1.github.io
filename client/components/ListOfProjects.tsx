@@ -1,9 +1,9 @@
 import { Container, Row, Col } from 'react-bootstrap'
 import home1 from '../images/home1.png'
 import home2 from '../images/home2.png'
-// import home3 from '../images/home3.png'
+import home3 from '../images/home3.png'
 
-const groupProjects = [
+const Projects = [
   {
     title: 'LUXROOM',
     date: 'Oct 2023 - Current',
@@ -24,22 +24,27 @@ const groupProjects = [
     skills:
       'TypeScript · JavaScript · React.js · SQLite · Express.js · Knex.js · Docker · CSS · HTML5 · Node.js',
   },
-  // {
-  //   title: 'ArcadePulse',
-  //   date: 'Dec 2023 - Current',
-  //   explain: `Discover a handpicked selection of games to keep you entertained during busy or dull moments. Dive in for a quick mental boost and enjoy the pulse of ArcadePulse!`,
-  //   url: 'http://the-space-guys.devacademy.nz/',
-  //   code: 'https://github.com/integer-1/sum-game',
-  //   src: home3,
-  //   skills: 'JavaScript · Matter.js · HTML5 · CSS · Vite· Node.js',
-  // },
+  {
+    title: 'ArcadePulse',
+    date: 'Dec 2023 - Current',
+    explain: `Discover a handpicked selection of games to keep you entertained during busy or dull moments. Dive in for a quick mental boost and enjoy the pulse of ArcadePulse!`,
+    url: 'http://the-space-guys.devacademy.nz/',
+    code: 'https://github.com/integer-1/sum-game',
+    src: home3,
+    skills: 'JavaScript · Matter.js · HTML5 · CSS · Vite· Node.js',
+  },
 ]
 
 const ListOfProjects = () => {
+  const ongoingProjects = 'ArcadePulse'
+  const completedProjects = Projects.filter(
+    (project) => project.title !== ongoingProjects
+  )
+
   return (
     <div className="list">
       <Container>
-        {groupProjects.map((project, index) => (
+        {completedProjects.map((project, index) => (
           <div className="list-detail" key={index}>
             <Row>
               <Col sm={12} xl={6}>
