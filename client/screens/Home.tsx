@@ -9,7 +9,7 @@ export default function Home() {
       <HomeImageSlide />
 
       <a href="/#projects" className="project-path">
-        Discover my projects &#187;
+        Discover my works &#187;
       </a>
 
       <div className="line"></div>

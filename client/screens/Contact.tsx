@@ -1,4 +1,4 @@
-import { EmailIcon, GithubIcon } from '../components/Icone.tsx'
+import { EmailIcon, GithubIcon, LinkedinIcon } from '../components/Icon.tsx'
 
 const Contact = () => {
   return (
@@ -11,6 +11,11 @@ const Contact = () => {
         <p className="github">
           <a href="https://github.com/integer-1">
             <GithubIcon /> GitHub | https://github.com/integer-1
+          </a>
+        </p>
+        <p className="github">
+          <a href="https://www.linkedin.com/in/suwon-jeong-225959171/">
+            <LinkedinIcon /> Linkedin 
           </a>
         </p>
       </div>

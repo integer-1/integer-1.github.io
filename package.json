@@ -26,6 +26,8 @@
     ]
   },
   "dependencies": {
+    "@tanstack/react-query": "^5.18.0",
+    "@tanstack/react-query-devtools": "^5.18.0",
     "@types/react-bootstrap": "^0.32.33",
     "axios": "^1.5.0",
     "bootstrap": "^5.3.2",
@@ -62,7 +64,7 @@
     "prettier": "2.6.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-router-dom": "^6.21.0",
+    "react-router-dom": "^6.21.3",
     "superagent": "7.1.1",
     "tsx": "^3.12.7",
     "typescript": "^5.2.2",
