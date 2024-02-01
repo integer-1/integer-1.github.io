@@ -29,7 +29,10 @@
       href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400&display=swap"
       rel="stylesheet"
     />
-    <link href="https://fonts.googleapis.com/css2?family=Gugi&family=Libre+Barcode+39&family=Rubik+Scribble&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Gugi&family=Libre+Barcode+39&family=Rubik+Scribble&display=swap"
+      rel="stylesheet"
+    />
 
     <!-- for menu bar link -->
     <link
@@ -42,21 +45,27 @@
     />
     <link rel="icon" href="/client/images/icon.png" />
     <title>integer::1</title>
+
     <script type="text/javascript">
-      (function (l) {
-        if (l.search[1] === "/") {
+      ;(function (l) {
+        if (l.search[1] === '/') {
           var decoded = l.search
             .slice(1)
-            .split("&")
+            .split('&')
             .map(function (s) {
-              return s.replace(/~and~/g, "&");
+              return s.replace(/~and~/g, '&')
             })
-            .join("?");
-          window.history.replaceState(null, null, l.pathname.slice(0, -1) + decoded + l.hash);
+            .join('?')
+          window.history.replaceState(
+            null,
+            null,
+            l.pathname.slice(0, -1) + decoded + l.hash
+          )
         }
-      })(window.location);
+      })(window.location)
     </script>
   </head>
+
   <body class="main-body">
     <div id="app"></div>
 
@@ -81,4 +90,3 @@
     </script>
   </body>
 </html>
-
