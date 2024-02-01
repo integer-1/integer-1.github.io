@@ -1,5 +1,6 @@
 {
   "name": "integer.1_portfolio",
+  "homepage": "https://integer-1.github.io/",
   "type": "module",
   "version": "0.2.3",
   "description": "A react starter",
@@ -79,6 +80,5 @@
   "bugs": {
     "url": "https://github.com/dev-academy-challenges/boilerplate-react-webpack/issues"
   },
-  "homepage": "https://github.com/dev-academy-challenges/boilerplate-react-webpack#readme",
   "main": "vite.config.js"
 }
