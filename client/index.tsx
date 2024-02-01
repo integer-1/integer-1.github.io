@@ -15,10 +15,4 @@ root.render(
     </QueryClientProvider>
 )
 
-const root2 = createRoot(document.getElementById('blog') as HTMLElement)
-root2.render(
-  <QueryClientProvider client={queryClient}>
-    <RouterProvider router={router} />
-    <ReactQueryDevtools initialIsOpen={false} />
-  </QueryClientProvider>
-)
+
