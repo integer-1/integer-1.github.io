@@ -5,7 +5,7 @@ import { ReactQueryDevtools } from '@tanstack/react-query-devtools'
 import { routes } from './routes.tsx'
 
 const queryClient = new QueryClient()
-const router = createBrowserRouter(routes, { basename: '/app' })
+const router = createBrowserRouter(routes)
 
 const root = createRoot(document.getElementById('app') as HTMLElement)
 root.render(
