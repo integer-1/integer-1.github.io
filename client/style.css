@@ -35,7 +35,9 @@ nav img {
   margin-top: 5px;
   margin-left: 20px;
 }
-
+nav a {
+  text-decoration: none;
+}
 nav ul {
   float: right;
   margin-right: 40px;
@@ -550,15 +552,47 @@ footer .copyright {
 /* blog */
 
 /* blog nav bar */
+.blog-log{
+  font-family: var(--blog-font);
+  color: palevioletred;
+  font-size: 14px;
+}
+
 .blog-show {
   font-family: var(--blog-font);
   font-weight: 400;
+  cursor: pointer;
+  margin-left: 40px;
+
+}
+
+.blog-hover .tooltiptext {
+  visibility: hidden;
+  font-size: 13px;
+  width: 120px;
+  height: 30px;
+  color: var(--color-dark);
+  text-align: center;
+  border-radius: 5px;
+  padding: 10px;
+  position: absolute;
+  z-index: 1;
+  bottom: -70%;
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.blog-hover:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
 }
 
 .blog-home {
-  background-color: var(--color-dark);
+  background-color: yellow;
   height: 200vh;
-  margin-top: 25px;
+  margin-top: 30px;
 }
 
 /* Arin */
@@ -574,7 +608,7 @@ footer .copyright {
 }
 
 .arin-home-container:hover::before {
-  content: "Hovered!";
+  content: "100";
 }
 
 .arin-home-container > span {

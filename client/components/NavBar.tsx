@@ -5,7 +5,7 @@ const NavBar = () => {
     <nav>
       <div className="line"></div>
       <a href="/">
-      <img id="home" src={blogLog} alt="number1" />
+        <img id="home" src={blogLog} alt="number1" />
       </a>
       <ul>
         <li>
@@ -20,9 +20,9 @@ const NavBar = () => {
         <li className="show">
           <a href="/#contact">Contact</a>
         </li>
-        {/* <li className="show">
+        <li className="show">
           <a href="/blog">Blog</a>
-        </li> */}
+        </li>
       </ul>
     </nav>
   )
