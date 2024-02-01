@@ -3,7 +3,7 @@ import { Route, createRoutesFromElements } from 'react-router-dom'
 import App from './App.tsx'
 import Blog from './screens/Blog.tsx'
 import Portfolio from './screens/Portfolio.tsx'
-import Arin from './blog/Arin.tsx'
+import Arin from './blogScreens/Arin.tsx'
 
 export const routes = createRoutesFromElements(
   <Route path="/" element={<App />}>
