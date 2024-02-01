@@ -8,7 +8,7 @@ import Arin from './blogScreens/Arin.tsx'
 export const routes = createRoutesFromElements(
   <Route path="*" element={<App />}>
     <Route index element={<Portfolio />} />
-    <Route path="blog/*" element={<Blog />} />
-    {/* <Route path="blog/arin" element={<Arin />} /> */}
+    <Route path="blog" element={<Blog />} />
+    <Route path="blog/arin" element={<Arin />} />
   </Route>
 )
