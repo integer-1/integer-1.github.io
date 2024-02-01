@@ -20,9 +20,9 @@ const NavBar = () => {
         <li className="show">
           <a href="/#contact">Contact</a>
         </li>
-        <li className="show">
-          <a href="/blog">Blog</a>
-        </li>
+        {/* <li className="show">
+          <a href="https://integer-1.github.io/blog">Blog</a>
+        </li> */}
       </ul>
     </nav>
   )
